@@ -131,7 +131,7 @@
 			class ZoomApiHelper{
 
 				public static function createZoomMeeting($meetingConfig = []){
-					$jwtToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6IldyUlpRVG1YUm4taDczSFlGaThxaHciLCJleHAiOjE2MjE4MzcwODQsImlhdCI6MTYyMTIzMjI4NX0.JSrkJqPEHcAoEQbK9YAjgLH5Fvyq5NVIiAARj-PX-Ds';
+					$jwtToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6Ijk1eGNRVTZEU21xRHRfMXZCdElPS3ciLCJleHAiOjE2MjI0NDYxNDMsImlhdCI6MTYyMTg0MTM1OH0.IDgPHCUzKRT5h5heffwdHXR06sLRbgUvuCkLm0jE-O4';
 					
 					$requestBody = [
 						'topic'			=> $meetingConfig['topic'] 		?? 'Ruang Meeting',
